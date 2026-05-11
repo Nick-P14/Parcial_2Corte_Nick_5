@@ -20,14 +20,11 @@
 
             <section id="seccionRegistrarse" class="col-12">
                 <div class="card shadow-sm">
-                    <div class="card-header d-flex justify-content-between align-items-center">
+                    <div class="card-header">
                         <h5 class="mb-0">Registrar Estudiante</h5>
-                        <button class="btn btn-sm btn-outline-light" onclick="toggleFormulario()">
-                            <i class="bi bi-person-plus"></i> Mostrar / Ocultar
-                        </button>
                     </div>
                     <div class="card-body">
-                        <form id="formularioRegistro" onsubmit="crearEstudiante(); return false;" style="display:none;">
+                        <form id="formularioRegistro" onsubmit="crearEstudiante(); return false;">
                             <div class="mb-3">
                                 <label for="documentoId">Documento de Identidad</label>
                                 <input type="number" class="form-control" placeholder="Digite su identificación" id="documentoId">
@@ -83,7 +80,7 @@
                             <tbody id="tablaEstudiantesBody"></tbody>
                         </table>
                         <div class="alert alert-info mb-0">
-                            Promedio General del Grupo: <strong><span id="promedioGrupo">0</span></strong>
+                            📊 Promedio General del Grupo: <strong><span id="promedioGrupo">0</span></strong>
                         </div>
                     </div>
                 </div>
