@@ -1,3 +1,39 @@
 body {
-    background-color:  #F5D2D2;
+    background-color: #F5D2D2;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-header {
+    background-color: #c0a0a0;
+    color: white;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+.btn-primary {
+    background-color: #a06060;
+    border-color: #a06060;
+}
+
+.btn-primary:hover {
+    background-color: #804040;
+    border-color: #804040;
+}
+
+.table thead {
+    background-color: #a06060;
+    color: white;
+}
+
+.navbar {
+    background-color: #c0a0a0;
+}
+
+.alert-info {
+    background-color: #f0d8d8;
+    border-color: #d4a0a0;
+    color: #5a3030;
 }
